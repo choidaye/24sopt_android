@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="305dp"
+        android:layout_height="203dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:cardUseCompatPadding="true"
+        android:elevation="8dp"
+        android:background="#fee8f1">
+
+
+    <RelativeLayout
+            android:background="#fee8f1"
+            android:id="@+id/rl_fg_my_point"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <ImageView
+                android:id="@+id/ic_ac_main_point_logo_small"
+                android:layout_marginLeft="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/point_logo_small"/>
+
+
+        <RelativeLayout
+                android:id="@+id/rl_ac_main_possible_point"
+                android:layout_below="@+id/ic_ac_main_point_logo_small"
+                android:layout_marginLeft="15dp"
+                android:layout_width="match_parent"
+                android:layout_marginTop="16dp"
+                android:layout_height="38dp">
+
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:textColor="#656565"
+                    android:lineSpacingExtra="2sp"
+                    android:layout_centerVertical="true"
+                    android:text="사용가능 포인트"/>
+
+
+            <ImageView
+                    android:id="@+id/ic_ac_main_more_btn"
+                    android:src="@drawable/bt_cupon"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:textSize="25sp"
+                    android:textColor="#fb8cb7"
+                    android:layout_toLeftOf="@+id/ic_ac_main_more_btn"
+                    android:text="1,429P"/>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+                android:id="@+id/rl_ac_main_possible_coupon"
+                android:layout_below="@+id/rl_ac_main_possible_point"
+                android:layout_marginLeft="15dp"
+                android:layout_width="match_parent"
+                android:layout_marginTop="16dp"
+                android:layout_height="38dp">
+
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:textColor="#656565"
+                    android:lineSpacingExtra="2sp"
+                    android:layout_centerVertical="true"
+                    android:text="사용가능 포인트"/>
+
+
+            <ImageView
+                    android:id="@+id/ic_ac_main_more_btn_coupon"
+                    android:src="@drawable/bt_cupon"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:textSize="17sp"
+                    android:textColor="#a2a2a2"
+                    android:layout_toLeftOf="@+id/ic_ac_main_more_btn_coupon"
+                    android:text="3개"/>
+
+        </RelativeLayout>
+
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#6c6c6c"
+                android:layout_below="@+id/rl_ac_main_possible_coupon"/>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_alignParentBottom="true"
+                android:orientation="horizontal">
+
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:textColor="#a0a0a0"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:text="영수증적립"/>
+
+            <View
+                    android:layout_width="0.5dp"
+                    android:layout_height="56dp"
+                    android:background="#6c6c6c"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:textSize="15sp"
+                    android:textColor="#a0a0a0"
+                    android:layout_weight="1"
+                    android:text="쿠폰조회/적립"/>
+
+
+
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+
+
+
+</android.support.v7.widget.CardView>
