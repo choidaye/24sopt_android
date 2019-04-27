@@ -3,6 +3,7 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="305dp"
         android:layout_height="203dp"
+        android:elevation="8dp"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         app:cardUseCompatPadding="true">
 
