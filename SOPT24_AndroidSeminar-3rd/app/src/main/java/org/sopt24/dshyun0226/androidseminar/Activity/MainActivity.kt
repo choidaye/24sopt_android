@@ -76,6 +76,9 @@ class MainActivity : AppCompatActivity() {
         vp_main_slider.offscreenPageLimit = 2
         tl_main_indicator.setupWithViewPager(vp_main_slider)
 
+
+        //not selector
+
 //        val navIndicatorMainLayout: View = (this.getSystemService(android.content.Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater)
 //            .inflate(R.layout.navigation_indicator_main, null, false)
 //        tl_main_indicator.getTabAt(0)!!.customView = navIndicatorMainLayout.
